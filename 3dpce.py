@@ -13,7 +13,7 @@ DEPRECIATION_FACTOR_PER_MINUTE = 0.00125
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(
         prog="3dpce.py",
-        description="Estimantes costs for FDP prints",
+        description="Estimate costs for filament prints",
     )
 
     parser.add_argument(
